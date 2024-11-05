@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Home Page of YouTube, where you can watch millions of videos uploaded by users from across the globe.">
+  <meta name="keywords"
+    content="trending videos, viral videos, video news, latest videos, video updates, cricket videos">
+  <title>Welcome to YouTube v2</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+  <!--Internal CSS ex-->
+  <!-- <style>
+    /* id selector */
+    #suggestedTopics {
+      background-color: aliceblue;
+      border: 1px solid rgb(2, 58, 114);
+    }
+  </style> -->
+</head>
+
+<body>
+  <!--header starts here-->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo"></a>
+    <input type="text" placeholder="Search" aria-label="Enter your search query here" class="search-input">
+    <div class="responsive-header">
+      <button type="button" aria-label="search" id="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button type="button" aria-label="voice query" id="headerMic"><i class=" fa-solid fa-microphone"></i></button>
+      <button type="button" aria-label="drop down list" id="headerDot"><i
+          class="fa-solid fa-ellipsis-vertical"></i></button>
+      <button type="button" id="headerSignIn"><i class="fa-solid fa-user"></i> Sign in</button>
+    </div>
+  </header>
+
+  <!--main starts here-->
+  <main>
+    <div id="suggestedTopics">
+      <ul>
+        <li><a href="./index.html">Football</a></li>
+        <li><a href="./index.html">Cricket</a></li>
+        <li><a href="./index.html">Music</a></li>
+        <li><a href="./index.html">Game shows</a></li>
+        <li><a href="./index.html">Racing</a></li>
+        <li><a href="./index.html">Netflix</a></li>
+        <li><a href="./index.html">Web series</a></li>
+        <li><a href="./index.html">Tennis</a></li>
+        <li><a href="./index.html">Movies</a></li>
+        <li><a href="./index.html">Sitcoms</a></li>
+      </ul>
+    </div>
+
+    <!-- <section class="section-wrapper"> -->
+    <!--Inline CSS ex-->
+    <section class="grid-wrapper">
+      <!-- <h1 style="color: red; text-align: center;">Trending Videos</h1> -->
+      <!--Video #1-->
+      <!-- <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/cricket-yt-thumbnail.jpg" alt="Cricket Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/cricket-channel-thumbnail.jpg" alt="Channel A"></a>
+            <a href="./video-page.html">
+              <h2>Cricket Highlights 2022 | Ind VS Aus | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel A</a></span>
+        <p>
+          <span>55K views</span>
+          <span>9 weeks ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #2
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/football-yt-thumbnail.png" alt="Football Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/football-channel-thumbnail.png" alt="Channel B"></a>
+            <a href="./video-page.html">
+              <h2>Football Highlights 2022 | Ind VS China | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel B <i class="fa-solid fa-circle-check"></i></a></span>
+        <p>
+          <span>1M views</span>
+          <span>1 month ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #3
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/tennis-yt-thumbail.jpg" alt="Tennis Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="/assets/images/tennis-channel-thumbail.jpg" alt="Channel C"></a>
+            <a href="./video-page.html">
+              <h2>Tennis Highlights 2022 | Ind VS Singapore | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel C <i class="fa-solid fa-circle-check"></i></a></span>
+        <p>
+          <span>653K views</span>
+          <span>9 months ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #4
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/basketball-yt-thumbnail.jpg" alt="Basketball Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/basketball-channel-thumbnail.jpg" alt="Channel D"></a>
+            <a href="./video-page.html">
+              <h2>Basketball Highlights 2022 | Vegas VS NY | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel D</a></span>
+        <p>
+          <span>63L views</span>
+          <span>3 years ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #5
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/chess-yt-thumbnail.jpg" alt="Chess Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="/assets/images/chess-channel-thumbnail.jpg" alt="Channel E"></a>
+            <a href="./video-page.html">
+              <h2>Chess Highlights 2022 | Ind VS Dubai | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel E <i class="fa-solid fa-circle-check"></i></a></span>
+        <p>
+          <span>5.9K views</span>
+          <span>9 hours ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #6
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/kabaddi-yt-thumbnail.jpg" alt="Kabaddi Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/kabaddi-channel-thumbnail.jpg" alt="Channel F"></a>
+            <a href="./video-page.html">
+              <h2>Kabaddi Highlights 2022 | Ind VS China | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel F</a></span>
+        <p>
+          <span>12K views</span>
+          <span>4 weeks ago</span>
+        </p>
+      </div>
+      </div> 
+
+      Video #7
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/volleyball-yt-thumbnail.jpg" alt="Volleyball Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/volleyball-channel-thumbnail.jpg" alt="Channel G"></a>
+            <a href="./video-page.html">
+              <h2>Volleyball Highlights 2022 | Vegas VS NY | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel G</a></span>
+        <p>
+          <span>12K views</span>
+          <span>4 weeks ago</span>
+        </p>
+      </div>
+      </div>
+
+      Video #8
+      <div>
+        <a href="./video-page.html">
+          <span class="thumbnail"><img src="./assets/images/hockey-yt-thumbnail.png" alt="Football Highlights"></span>
+          <div class="video-name">
+            <a href="#"><img src="./assets/images/hockey-channel-thumbnail.png" alt="Channel H"></a>
+            <a href="./video-page.html">
+              <h2>Football Highlights 2022 | Ind VS China | Star Sports |</h2>
+            </a>
+        </a>
+        <span class="channel-name"><a href="#">Channel H <i class="fa-solid fa-circle-check"></i></a></span>
+        <p>
+          <span>55K views</span>
+          <span>9 weeks ago</span>
+        </p>
+      </div>
+      </div>  -->
+    </section>
+  </main>
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023| Lakshmi Narasimman</p>
+  </footer>
+
+  <script src="./assets/scripts/index.js"></script>
+</body>
+
+</html>

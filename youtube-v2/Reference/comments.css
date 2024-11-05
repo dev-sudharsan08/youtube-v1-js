@@ -1,0 +1,229 @@
+/* .box{
+  width: 500px;
+
+	height: 50px;
+
+	background-color: white;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+}
+
+.box > i {
+
+	font-size: 20px;
+
+	color: #777;
+
+} */
+
+/* .box > input{
+
+	flex: 1;
+
+	height: 40px;
+
+	border: 1px solid red;
+
+	outline: #afcf0c;
+
+  font-size: 18px;
+
+	padding-left: 10px;
+} */
+
+
+
+/* body{
+   display: flex; 
+}   */
+
+/* #indexHeader {
+  display: inline-block;
+  margin-top: 20px;
+} */
+
+
+/* 
+#primaryNav {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#primaryNav ul {
+  padding: 0;
+}
+
+#primaryNav ul li {
+  list-style: none;
+  display: inline-block;
+  /* margin-left: 10px; */
+
+
+/* #primaryNav a {
+  color: white;
+  background: #6f7070;
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+} */
+
+/* .football-highlights div{
+   row-gap: -100px; 
+} */
+
+
+/* 
+.video-name img{
+  margin-top: -50px;
+} */
+
+/* .channel-name span{
+  margin-top: 50px;
+} */
+
+
+/* .contact-form .buttons-wrapper button[type='reset'] {
+  background-color: rgb(248, 163, 130);
+}
+
+.contact-form .buttons-wrapper button[type='submit'] {
+  background-color: greenyellow; */
+
+
+  /* <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+    <!-- <div class="box"> -->
+    <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+    <input type="text" placeholder="Search" aria-label="Enter your search query here" class="search-input">
+    <!-- <div id="indexHeader"> -->
+    <div id="headerSearch">
+      <button type="button" aria-label="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <!-- <div id="indexHeader"> -->
+    <div id="headerMic">
+      <button type="button" aria-label="voice query"><i class=" fa-solid fa-microphone"></i></button>
+    </div>
+    <div id="headerSignIn">
+      <button type="button"><i class="fa-solid fa-user"></i> Sign in</button>
+    </div>
+    <!-- </div> -->
+    <!-- <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav> -->
+  </header> */
+  
+
+  .video-name {
+    /* margin-left: 3px; */
+    /* height: 80%;
+    width: 100%; */
+  }
+  
+
+
+
+  
+  #.video-names{
+    /* margin-left: 25px; */
+    border: 1px solid red;
+    width: 63%;
+    height: 350px;
+  
+  }
+  #mainVideo h2{
+    /* margin-left: 25px; */
+  }
+  
+   .video-names {
+    /* display: inline-block; */
+  
+
+
+  
+
+
+
+  margin-left: 20px;
+  /* height: 50%;
+  width: 60%; */
+  border: 1px solid rebeccapurple;
+}  
+
+
+
+.video-names h2{
+  display: inline-block;
+  text-decoration: none;
+  /* margin-left: 35px; */
+  /* margin-top: 0; */
+  /* margin-bottom: 130px; */
+  border: 1px solid rebeccapurple;
+  /* height: 10px;
+  width: 40px; */
+}
+
+.video-names img{
+  border-radius: 20px;
+  /* margin-bottom: 7px; */
+  padding: 1px 2px;
+  text-align: center;
+}
+/* 
+.video-names b {
+  top: 0;
+  border: 1px solid red;
+  /* margin-bottom: 20px; */
+  /* margin-left: 10px; */
+  /* color: rgba(0, 0, 0, 0.795); */
+
+
+.channel-names a {
+  margin-left: 43px;
+  text-decoration: none;
+  color: #3d3d3c;
+  margin-top: 70px;
+}
+
+.video-meta img{
+  border-radius: 20px;
+  margin-left: 25px;
+  /* margin-top: 10px; */
+  border: 1px solid red;
+  height: 40px;
+  width: 40px;
+}
+
+.video-names a{
+  text-decoration:none ;
+  border: 1px solid red;
+
+}
+
+.video-names h2{
+  /* margin-top: -100px; */
+  border: 1px solid red;
+  display: inline-block;
+  color: #1b1b1a;
+  margin-bottom: 25px;
+}
+
+/* #videoMeta div{
+display: inline-block;
+} */
+
+/* .video-meta h2{
+  display: inline-block;
+} */
+
+

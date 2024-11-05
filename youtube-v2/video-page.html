@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Video Page of YouTube, where you can watch millions of videos uploaded by users from across the globe.">
+  <meta name="keywords"
+    content="cricket videos, funny videos, horror videos, latest videos, news updates, sports videos">
+  <title>Video Page</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <!--header starts here-->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo"></a>
+    <input type="text" placeholder="Search" aria-label="Enter your search query here" class="search-input">
+    <div class="responsive-header">
+      <button type="button" aria-label="search" id="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button type="button" aria-label="voice query" id="headerMic"><i class=" fa-solid fa-microphone"></i></button>
+      <button type="button" aria-label="drop down list" id="headerDot"><i
+          class="fa-solid fa-ellipsis-vertical"></i></button>
+      <button type="button" id="headerSignIn"><i class="fa-solid fa-user"></i> Sign in</button>
+    </div>
+  </header>
+
+  <!--main starts here-->
+  <main>
+    <div class="flex-wrapper">
+      <div id="mainVideo">
+        <video controls>
+          <source src="./assets/videos/yt-video-2.mp4" type="video/mp4">
+        </video>
+
+        <h2 style="margin: 10px 17px;">Nat-Geo Wild | Bear-Birds Wildlife Video</h2>
+
+        <div id="videoMeta">
+          <a href="#">
+            <img src="./assets/images/nat-geo-thumbnail.png" alt="Nat-Geo Wild"></a>
+          <a href="#">
+            <h2 style="color: black;">Nat-Geo</h2></a>
+          <button type="button" class="subscribe-button">Subscribe</button>
+          <div id="videoButtons">
+            <div class="video-buttons">
+              <button type=" button" id="likeButton"><i class="fa-regular fa-thumbs-up"></i> 35K</button>
+              <button type="button" id="dislikeButton"><i class="fa-regular fa-thumbs-down"></i> 2</button>
+              <button type="button"><i class="fa-solid fa-share"></i>Share</button>
+              <button type="button"><i class="fa-solid fa-download"></i>Download</button>
+            </div>
+          </div>
+          <div class="subs-count">10M Subscribers</div>
+        </div>
+
+        <div id="videoDescription">
+          <p>
+            <b>4.5M Views</b>
+            <b>6 months ago</b>
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio alias omnis repellendus
+            placeat
+            nemo ea, reprehenderit numquam natus tempore a similique pariatur, ad, dolorum modi veritatis ipsa facere
+            sint? lo
+          </p>
+        </div>
+
+        <div class="comment-section">
+          <p>52 Comments</p>
+          <div class="comment-names">
+            <a href="#"><img src="./assets/images/profile-yt-thumbail.png" alt="Channel Name"></a>
+            <a href="./video-page.html">
+              <span>Add a comment</span>
+            </a>
+          </div>
+
+          <div class="video-names">
+            <a href="#"><img src="./assets/images/hockey-channel-thumbnail.png" alt="Channel Name A"></a>
+            <a href="./video-page.html">
+              <b>Adam Mark</b>
+              <span> 2 minutes ago</span>
+            </a>
+            <p>Cool bro 😎</p>
+            <button type=" button" class="likes-button"><i class="fa-regular fa-thumbs-up"></i> 2</button>
+            <button type="button" class="dislikes-button"><i class="fa-regular fa-thumbs-down"></i> 1</button>
+            <button type="button" class="reply-button"><b>Reply</b></button>
+            <div  class="replies-button">
+              <button type="button"><i class="fa-solid fa-caret-down"></i> 2 replies</button>
+            </div>
+          </div>
+
+          <div class="video-names">
+            <a href="#"><img src="./assets/images/football-yt-thumbnail.png" alt="Channel Name B"></a>
+            <a href="./video-page.html">
+              <b>Henry Brook</b>
+              <span> 7 months ago</span>
+            </a>
+            <p>The concept of the video was fantastic👌</p>
+            <button type=" button" class="likes-button"><i class="fa-regular fa-thumbs-up"></i> 9</button>
+            <button type="button" class="dislikes-button"><i class="fa-regular fa-thumbs-down"></i> 2</button>
+            <button type="button" class="reply-button"><b>Reply</b></button>
+            <div  class="replies-button">
+              <button type="button"><i class="fa-solid fa-caret-down"></i> 1 reply</button>
+            </div>
+          </div>
+
+          <div class="video-names">
+            <a href="#"><img src="./assets/images/kabaddi-yt-thumbnail.jpg" alt="Channel Name C"></a>
+            <a href="./video-page.html">
+              <b>Thuz Design</b>
+              <span> 7 months ago</span>
+            </a>
+            <p>You've made a beautiful ui✌🏻
+              Please give us the source code as well🔁
+            </p>
+            <button type=" button" class="likes-button"><i class="fa-regular fa-thumbs-up"></i> 13</button>
+            <button type="button" class="dislikes-button"><i class="fa-regular fa-thumbs-down"></i> 4</button>
+            <button type="button" class="reply-button"><b>Reply</b></button>
+            <div  class="replies-button">
+              <button type="button"><i class="fa-solid fa-caret-down"></i> 5 replies</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- aside video starts here -->
+      <aside class="video-page">
+        <!--sidebar video #1-->
+        <!-- <div class="side-video">
+          <div><a href="#">
+              <img src="./assets/images/football-yt-thumbnail.png" alt="video #1">
+            </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Football Highlights of 2022 | France VS Spain</h3>
+              <p>Channel A</p>
+              <p>
+                <span>1M views</span>
+                <span>2 weeks ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        sidebar video #2 starts
+        <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/tennis-yt-thumbail.jpg" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Tennis Highlights of 2022 | Ind VS Aus</h3>
+              <p>Channel B <i class="fa-solid fa-circle-check"></i></p>
+              <p>
+                <span>26M views</span>
+                <span>8 months ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        sidebar video #3 starts!--->
+        <!-- <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/volleyball-yt-thumbnail.jpg" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Volleyball Highlights of 2022 | China VS Singapore</h3>
+              <p>Channel C</p>
+              <p>
+                <span>7k views</span>
+                <span>6 hours ago</span>
+              </p>
+            </a>
+          </div>
+        </div> -->
+
+        <!--sidebar video #4 starts-->
+        <!-- <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/hockey-yt-thumbnail.png" alt="video #1">
+          </a></div>
+          <div class="aside-video-name">
+            <a href="#">
+              <h3>Hockey Highlights of 2022 | Ind VS Korea</h3>
+              <p>Channel D <i class="fa-solid fa-circle-check"></i></p>
+              <p>
+                <span>896K views</span>
+                <span>1 month ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/volleyball-yt-thumbnail.jpg" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Volleyball Highlights of 2022 | NZ VS Aus</h3>
+              <p>Channel E</p>
+              <p>
+                <span>13 views</span>
+                <span>2 minutes ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/cricket-yt-thumbnail.jpg" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Cricket Highlights of 2022 | NZ VS Aus</h3>
+              <p>Channel F <i class="fa-solid fa-circle-check"></i></p>
+              <p>
+                <span>190K views</span>
+                <span>60 minutes ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/nat-geo-thumbnail.png" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Best video of 2022 | Nat-Geo Wild</h3>
+              <p>Channel G</p>
+              <p>
+                <span>190K views</span>
+                <span>60 minutes ago</span>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="side-video">
+          <div><a href="#">
+            <img src="./assets/images/chess-yt-thumbnail.jpg" alt="video #1">
+          </a></div>
+          <div class="aside-video-name"><a href="#">
+              <h3>Chess Highlights of 2022 | Ind VS Aus</h3>
+              <p>Channel H <i class="fa-solid fa-circle-check"></i></p>
+              <p>
+                <span>2M views</span>
+                <span>2 weeks ago</span>
+              </p>
+            </a>
+          </div>
+        </div>  -->
+      </aside>
+  </main>
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023| Lakshmi Narasimman</p>
+  </footer>
+<script src="./assets/scripts/video.js"></script> 
+</body>
+
+</html>

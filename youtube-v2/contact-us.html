@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contact Us Page of YouTube, where you can able to contact YouTube team for any queries and in case of any help.">
+  <meta name="keywords"
+    content="videos not playing, application not working, error, need help, misleading information, missing content">
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <!--header starts here-->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo"></a>
+    <input type="text" placeholder="Search" aria-label="Enter your search query here" class="search-input">
+    <div class="responsive-header">
+      <button type="button" aria-label="search" id="headerSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button type="button" aria-label="voice query" id="headerMic"><i class=" fa-solid fa-microphone"></i></button>
+      <button type="button" aria-label="drop down list" id="headerDot"><i
+          class="fa-solid fa-ellipsis-vertical"></i></button>
+      <button type="button" id="headerSignIn"><i class="fa-solid fa-user"></i> Sign in</button>
+    </div>
+  </header>
+
+
+  <!--main starts here-->
+  <main>
+    <h1>Contact Us Page</h1>
+
+    <form class="contact-form">
+      <div class="field-wrapper">
+        <label for="nameInput">Enter your Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter Your Name" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="phoneInput">Enter your Phone Number:</label>
+        <!-- <input type="tel" id="phoneInput" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter Your Phone Number" required> -->
+        <input type="number" id="phoneInput" min="1999999999" max="9999999999" placeholder="Enter Your Phone Number"
+          required>
+      </div>
+      <div class="field-wrapper">
+        <label for="emailInput">Enter your Email:</label>
+        <input type="email" id="emailInput" placeholder="Enter Your Email" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="queryInput">Enter your Query:</label>
+        <textarea id="queryInput" rows="5" cols="50" minlength="10" maxlength="50" placeholder="Enter Your Query"
+          required></textarea>
+      </div>
+
+      <div class="buttons-wrapper">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+
+      <!--to do: min n max length for ph n textarea fields-->
+    </form>
+  </main>
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023| Lakshmi Narasimman</p>
+  </footer>
+
+</body>
+
+</html>
